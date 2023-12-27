@@ -1,0 +1,507 @@
+{
+  "Coffees": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Spanish Latte",
+        "category": "hotCoffee",
+        "price": 25,
+        "img": {
+          "fields": { "file": { "url": "productsImages/imagesPR1.jpg" } }
+        },
+        "description": "Our spanish latte is made up two shots of espresso, steamed milk and sweetner, with thin layer of frothed milk on top."
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Latte",
+        "category": "hotCoffee",
+        "price": 20,
+        "img": {
+          "fields": { "file": { "url": "productsImages/hot-latte.jpeg" } }
+        },
+        "description": "Our latte is made up of 1/5 shots of espresso, steamed milk and no sweetner, with thin layer of frothed milk on top."
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Cortado",
+        "category": "hotCoffee",
+        "price": 18,
+        "img": {
+          "fields": { "file": { "url": "productsImages/cortado-spanish.jpg" } }
+        },
+        "description": "Our cortado is made up of 1/5 shots of espresso, steamed milk with options for sweetner, with thin layer of frothed milk on top."
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Salted Caramel",
+        "category": "hotCoffee",
+        "price": 25,
+        "img": {
+          "fields": { "file": { "url": "productsImages/hot-latte.jpeg" } }
+        },
+        "description": "Our Salted Caramel is made up of 2 shots of espresso, steamed milk with Salted Caramel flavors, with thin layer of frothed milk on top."
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Piccollo",
+        "category": "hotCoffee",
+        "price": 28,
+        "img": {
+          "fields": { "file": { "url": "productsImages/mt-cortado.jpg" } }
+        },
+        "description": "Our Salted Caramel is made up of 2 shots of espresso, steamed milk with Salted Caramel flavors, with thin layer of frothed milk on top."
+      }
+    },
+    {
+      "sys": { "id": "picollo01" },
+      "fields": {
+        "title": "Cortado Spanish",
+        "category": "hotCoffee",
+        "price": 20,
+        "img": {
+          "fields": { "file": { "url": "productsImages/cortado-spanish.jpg" } }
+        },
+        "description": "Our Salted Caramel is made up of 2 shots of espresso, steamed milk with Salted Caramel flavors, with thin layer of frothed milk on top."
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "ESpresso",
+        "category": "hotCoffee",
+        "price": 15,
+        "img": {
+          "fields": { "file": { "url": "productsImages/img_5.jpeg" } }
+        },
+        "description": "Our Salted Caramel is made up of 2 shots of espresso, steamed milk with Salted Caramel flavors, with thin layer of frothed milk on top."
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Flat White",
+        "category": "hotCoffee",
+        "price": 20,
+        "img": {
+          "fields": { "file": { "url": "productsImages/img_1.jpeg" } }
+        },
+        "description": "Our Salted Caramel is made up of 2 shots of espresso, steamed milk with Salted Caramel flavors, with thin layer of frothed milk on top."
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "V60",
+        "category": "hotCoffee",
+        "price": 28,
+        "img": {
+          "fields": { "file": { "url": "productsImages/img_7.jpg" } }
+        },
+        "description": "The taste of V60 coffee is clean, smooth, and complex at the same time, especially with lighter roast coffees. And we serve both HOT/COLD"
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Americano",
+        "category": "hotCoffee",
+        "price": 15,
+        "img": {
+          "fields": { "file": { "url": "productsImages/americano-hot.jpg" } }
+        },
+        "description": "The coffee is clean, smooth, and heavy body at the same time, it's prepared with Espresso with HOT/COLD water"
+      }
+    },
+
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "Dark Mocha",
+        "category": "hotCoffee",
+        "price": 20,
+        "img": {
+          "fields": { "file": { "url": "mojitos/dark_mocha.jpg" } }
+        },
+        "description": "The coffee is clean, smooth, and heavy body at the same time, it's prepared with Espresso with HOT/COLD water"
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "Spanish Latte",
+        "category": "coldCoffee",
+        "price": 25,
+        "img": {
+          "fields": { "file": { "url": "productsImages/iced-coffee1.jpg" } }
+        },
+        "description": "Our spanish latte is made up two shots of espresso, cold milk and sweetner, with ice."
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "Salted Caramel",
+        "category": "coldCoffee",
+        "price": 25,
+        "img": {
+          "fields": { "file": { "url": "productsImages/iced.jpg" } }
+        },
+        "description": "Our Salted Caramel is made up of 2 shots of espresso, cold milk with Salted Caramel flavors, with ice."
+      }
+    },
+    {
+      "sys": { "id": "hibiscus1" },
+      "fields": {
+        "title": "Hibiscus Tea",
+        "category": "coldCoffee",
+        "price": 20,
+        "img": {
+          "fields": { "file": { "url": "mojitos/hibiscus_icedTea.jpg" } }
+        },
+        "description": "Our Salted Caramel is made up of 2 shots of espresso, cold milk with Salted Caramel flavors, with ice."
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "Matcha",
+        "category": "coldCoffee",
+        "price": 25,
+        "img": {
+          "fields": { "file": { "url": "productsImages/iced-coffee3.jpg" } }
+        },
+        "description": "Our Salted Caramel is made up of 2 shots of espresso, cold milk with Salted Caramel flavors, with ice."
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "Iced Americano",
+        "category": "coldCoffee",
+        "price": 15,
+        "img": {
+          "fields": {
+            "file": { "url": "productsImages/iced-coffee-americano2.jpg" }
+          }
+        },
+        "description": "Our Americano is made up of 2 shots of espresso, cold water and ice."
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "Vanilla Latte",
+        "category": "coldCoffee",
+        "price": 20,
+        "img": {
+          "fields": {
+            "file": { "url": "productsImages/iced-coffee4.jpg" }
+          }
+        },
+        "description": "Our Salted Caramel is made up of 2 shots of espresso, cold milk with Salted Caramel flavors, with ice."
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": "Dark Mocha Cold",
+        "category": "coldCoffee",
+        "price": 20,
+        "img": {
+          "fields": {
+            "file": { "url": "productsImages/iced-coffee7.jpg" }
+          }
+        },
+        "description": "Our Salted Caramel is made up of 2 shots of espresso, cold milk with Salted Caramel flavors, with ice."
+      }
+    },
+    {
+      "sys": { "id": "17" },
+      "fields": {
+        "title": "Iced Latte",
+        "category": "coldCoffee",
+        "price": 20,
+        "img": {
+          "fields": {
+            "file": { "url": "productsImages/iced-coffee5.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "V60_17" },
+      "fields": {
+        "title": "Iced V60",
+        "category": "coldCoffee",
+        "price": 28,
+        "img": {
+          "fields": {
+            "file": { "url": "productsImages/iced-coffee-americano2.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "18" },
+      "fields": {
+        "title": "PassionFruit",
+        "category": "Mojito",
+        "price": 20,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/img_13.jpg" }
+          }
+        },
+        "description": "Our Passion fruit is made of sparkling passion fruit syrup, with lemon mint and ice. It's has been attested and approved by proffessionals"
+      }
+    },
+    {
+      "sys": { "id": "19" },
+      "fields": {
+        "title": "Blue-Berry Mojito",
+        "category": "Mojito",
+        "price": 15,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/img_12.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "20" },
+      "fields": {
+        "title": "Lemon Mojito",
+        "category": "Mojito",
+        "price": 15,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/img_11.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "21" },
+      "fields": {
+        "title": "StrewBerry Mojito",
+        "category": "Mojito",
+        "price": 18,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/img_10.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "22" },
+      "fields": {
+        "title": "RaspBerry Mojito",
+        "category": "Mojito",
+        "price": 19,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/raspberry-mojito.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "23" },
+      "fields": {
+        "title": "Mix-Berry ",
+        "category": "Mojito",
+        "price": 20,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/mix-berry.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "cake001" },
+      "fields": {
+        "title": "Acai Bowl ",
+        "category": "cakes",
+        "price": 30,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/acai-bowl.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "cake002" },
+      "fields": {
+        "title": "San-Sebianstian ",
+        "category": "cakes",
+        "price": 25,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/cake_2.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "cake003" },
+      "fields": {
+        "title": "Lotus Cheese Cake",
+        "category": "cakes",
+        "price": 20,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/cake_3.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "cake004" },
+      "fields": {
+        "title": "StrewBerry Cake",
+        "category": "cakes",
+        "price": 20,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/cake_4.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "cake005" },
+      "fields": {
+        "title": "StrewBerry Cake",
+        "category": "cakes",
+        "price": 20,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/cake_4.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "cake006" },
+      "fields": {
+        "title": "Molten Cake ",
+        "category": "cakes",
+        "price": 20,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/cake_1.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "cake007" },
+      "fields": {
+        "title": "Acai Smoothie ",
+        "category": "cakes",
+        "price": 30,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/acai-smothie.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "milkshakes001" },
+      "fields": {
+        "title": "Oreo Shake ",
+        "category": "milkShakes",
+        "price": 25,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/oreo-shake.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "milkshakes002" },
+      "fields": {
+        "title": "Lotus Shake",
+        "category": "milkShakes",
+        "price": 25,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/lotus-shake.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "milkshakes003" },
+      "fields": {
+        "title": "Pistachio Shake ",
+        "category": "milkShakes",
+        "price": 25,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/pistachio-shake.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "milkshakes004" },
+      "fields": {
+        "title": "Pistachio Frappe ",
+        "category": "milkShakes",
+        "price": 25,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/pistachio-frappe.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    },
+    {
+      "sys": { "id": "milkshakes004" },
+      "fields": {
+        "title": "Caramel Frappe ",
+        "category": "milkShakes",
+        "price": 25,
+        "img": {
+          "fields": {
+            "file": { "url": "mojitos/caramel-frappe.jpg" }
+          }
+        },
+        "description": "Our iced latte is made up of 2 shots of espresso, cold milk, ice with no Sweetner."
+      }
+    }
+  ]
+}

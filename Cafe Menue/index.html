@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="mojitos/picollo.jpg" />
+    <meta
+      name="description"
+      content="Experience the perfect fusion of flavors, where every sip tells a story at SMOOTH BREW coffee shop. come visit us, we have One of the finest restaurants confort and luxury dining in Al Marfa. We are opened 17 hours a day, from 7:00 am to 00:00 am at midnight"
+    />
+    <title>Cafe Menue &mdash;check out our best selling coffee's</title>
+
+    <!-- ====CAROUSEL CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ------SWIPER JS CSS LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- END OF LINK -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/heroSection.css" />
+
+    <link rel="stylesheet" href="css/products.css" />
+    <link rel="stylesheet" href="css/reviews.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="secondary_header container">
+        <div class="logo">
+          <img src="/images/cup__logo.jpg" alt="cafe logo" />
+          <p class="logo-name">smooth <span>B</span>rew</p>
+        </div>
+
+        <div class="search-bar">
+          <ion-icon class="icon search-icon" name="search-outline"></ion-icon>
+          <input class="search" type="text" placeholder="Search..." />
+        </div>
+        <div class="cart-icon">
+          <ion-icon class="icon add-cart" name="cart-outline"></ion-icon>
+          <span class="cart-quantity">0</span>
+        </div>
+        <div class="cart-items">
+          <div class="basket-subTotal2">
+            <!--
+           
+            <div class="cart">
+              <div class="cart-img-container">
+                <div class="imgs-cont">
+                  <img
+                    class="basket-image"
+                    src="productsImages/cortado-spanish.jpg"
+                    alt="products"
+                  />
+                </div>
+
+                <div class="cart-item-name">
+                  <span
+                    ><ion-icon
+                      class="basket-icon"
+                      name="cafe-outline"
+                    ></ion-icon
+                  ></span>
+                  <h2>Spanish Latte</h2>
+                </div>
+              </div>
+              <div class="total-price grid-cart-display">
+                <div class="price">PRICE</div>
+                <h4 class="single-item-total">AED <span>100</span></h4>
+              </div>
+              <div class="cart-description-container">
+                <div class="qty-btn-container grid-cart-display">
+                  <h2 class="qty-btn-label price">QUANTITY</h2>
+                  <div class="basket-btn-container">
+                    <button>
+                      <ion-icon
+                        class="decrement-btn basket-icon"
+                        name="remove-circle-outline"
+                      ></ion-icon>
+                    </button>
+                    <span class="cart-item-quantity">100</span>
+                    <button>
+                      <ion-icon
+                        class="increment-btn basket-icon"
+                        name="add-circle-outline"
+                      ></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="delete-btn">
+                  <ion-icon class="delete-icon" name="trash-outline"></ion-icon>
+                  <h2>remove item</h2>
+                </div>
+              </div>
+              <div class="subtotal grid-cart-display">
+                <h2 class="price">TOTAL</h2>
+                <p class="total-title">100</p>
+              </div>
+            </div>
+           -->
+          </div>
+          <div class="cart-footer grid grid--2-cols">
+            <div class="basket-subTotal">
+              <label for="sub-Amoubt">SUB TOTAL</label>
+              <div class="sub-Amoubt" id="sub-Amoubt">AED 100</div>
+            </div>
+            <div class="clear-allItems-btn">CLEAR CART</div>
+          </div>
+        </div>
+
+        <nav class="nav-Bar">
+          <ul class="main-nav">
+            <li class="main-nav-list active"><a href="#">Home</a></li>
+            <li class="main-nav-list"><a href="/aboutUs.html">About us</a></li>
+            <li class="main-nav-list our-menue">
+              <a href="#our-cafe-menu">Menue </a>
+              <ul class="Menue-items">
+                <li class="Menue_category">
+                  <a href="#our-cafe-menu">Hot Coffee</a>
+                </li>
+                <li class="Menue_category"><a href="#">cold coffee</a></li>
+                <li class="Menue_category">
+                  <a href="#mojito-section-container">mojitos</a>
+                </li>
+                <li class="Menue_category"><a href="#">Frappes</a></li>
+                <li class="Menue_category"><a href="#">Milk shakes</a></li>
+                <li class="Menue_category"><a href="#">Manual brew</a></li>
+                <li class="Menue_category"><a href="#">Acai</a></li>
+              </ul>
+            </li>
+            <li class="main-nav-list">
+              <a href="#reviews-section">Reviews</a>
+            </li>
+            <li class="main-nav-list"><a href="#">Location</a></li>
+            <li class="main-nav-list">
+              <a href="/contactUs.html">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hamburger-menu hamburger-menu-two">
+          <input type="checkbox" class="input-check" id="input-check2" hidden />
+          <label class="bars-container bars-container2" for="input-check2">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+          </label>
+        </div>
+      </div>
+    </header>
+    <main>
+      <sectiom class="section-hero">
+        <div class="slideshow">
+          <div class="hero container">
+            <div class="hero-container">
+              <h2 class="heading-primary hero-heading">
+                start your day with a delicious cup of <span>coffee</span>
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+                reiciendis? Aspernatur distinctio recusandae omnis, saepe
+                debitis id rerum nihil labore molestias ratione suscipit fugit
+                animi aliquid, hic alias vero modi? lo
+              </p>
+              <a class="btn btn-heross" href="#">Order now &rarr;</a>
+            </div>
+          </div>
+          <!-- <div class="hero-img-holder">
+          <img class="hero-img" src="images/hero-backgroung.jpg" alt="" />
+        </div> -->
+        </div>
+      </sectiom>
+
+      <!-- <div class="spinner">
+          <svg>
+            <use href="src/img/icons.svg#icon-loader"></use>
+          </svg>
+        </div> -->
+      <section class="our-services">
+        <h2 class="secondary-header">Services</h2>
+
+        <div class="container container-helper swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="services swiper-slide">
+              <ion-icon class="icon service-icon" name="car-outline"></ion-icon>
+              <div class="service-contain">
+                <h2 class="service-header">Free delivery</h2>
+                <p class="service-desc">on oders above AED <span>350</span></p>
+              </div>
+            </div>
+            <div class="services swiper-slide">
+              <ion-icon
+                class="icon service-icon"
+                name="wallet-outline"
+              ></ion-icon>
+              <div class="service-contain">
+                <h2 class="service-header">Cash on delivery</h2>
+                <p class="service-desc">100% money back guarantee</p>
+              </div>
+            </div>
+            <div class="services swiper-slide">
+              <ion-icon
+                class="icon service-icon"
+                name="gift-outline"
+              ></ion-icon>
+              <div class="service-contain">
+                <h2 class="service-header">special discount</h2>
+                <p class="service-desc">on oders above AED <span>250</span></p>
+              </div>
+            </div>
+
+            <div class="services swiper-slide">
+              <ion-icon
+                class="icon service-icon call-out"
+                name="call-outline"
+              ></ion-icon>
+              <div class="service-contain">
+                <h2 class="service-header customer-service">
+                  24/7customer service
+                </h2>
+                <p class="service-desc contact-us-number">
+                  call us at
+                  <span> 005-1234-8547 </span>
+                </p>
+              </div>
+            </div>
+            <div class="services swiper-slide">
+              <ion-icon
+                class="icon service-icon"
+                name="wifi-outline"
+              ></ion-icon>
+              <div class="service-contain">
+                <h2 class="service-header">Free WI-FI</h2>
+                <p class="service-desc">convenient for studies</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- ---------------------------------------- -->
+      <!-------------- products sections ------------->
+      <!-- ---------------------------------------- -->
+
+      <section class="products-section1" id="our-cafe-menu">
+        <div class="heading">
+          <h2 class="products-heading">HOT <span>COFFEE</span></h2>
+        </div>
+        <!-- <div class="products-container container grid grid--4-cols"></div> -->
+
+        <div class="swiper hotCoffee-Section">
+          <div class="swiper-wrapper products-containerss"></div>
+
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- ---------------------------------------- -->
+      <!-------------- products sections ------------->
+      <!-- ---------------------------------------- -->
+
+      <section class="cold-coffee-section">
+        <div class="heading">
+          <h2 class="products-heading header-cold">COLD <span>COFFEE</span></h2>
+          <div class="cold-section-hero">
+            <div class="container-cold">
+              <h2>Iced coffee:</h2>
+              <p>
+                Like a regular coffee, it maybe be prepared either by brewing
+                coffee manually (i.e, V60, aero-press etc) or a combination of
+                hot espresso, milk, and ice.
+              </p>
+            </div>
+            <img src="/screenImages/Screenshot 2023-12-01 112459.png" alt="" />
+          </div>
+        </div>
+        <div class="swiper mySwiperhello">
+          <div class="swiper-wrapper container swipper-cold-section"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- ========== MOJITOS CONTANER ============== -->
+
+      <section class="mojito-container">
+        <div class="heading">
+          <h2 class="products-heading header-cold"><span>MOJITOS</span></h2>
+          <div class="cold-section-hero">
+            <div class="container-cold">
+              <h2>Receive all orders at your convenient Home/Office:</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reiciendis, at.
+              </p>
+            </div>
+            <img src="/screenImages/Screenshot 2023-12-01 112459.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="swiper mojito-section-container"
+          id="mojito-section-container"
+        >
+          <div class="swiper-wrapper swipper-Mojito-section"></div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- ========== CAKES/ACAI CONTANER ============== -->
+
+      <section class="cakes-container">
+        <div class="heading">
+          <h2 class="products-heading header-cold">
+            CAKES <span> & ACAI</span>
+          </h2>
+          <div class="cold-section-hero">
+            <div class="container-cold">
+              <h2>order Online:</h2>
+              <p>Receive your orders at your convenient Home/Office:</p>
+            </div>
+            <img src="mojitos/Screenshot 2023-12-04 141914.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="swiper cakes-section-container"
+          id="cakes-section-container"
+        >
+          <div class="swiper-wrapper cakes-containerDOM"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- ========== FRAPPES/MILKSHAKES CONTANER ============== -->
+
+      <section class="milkshakes-frappes-container">
+        <div class="heading">
+          <h2 class="products-heading header-cold">
+            MILKSHAKES & <span>FRAPPES</span>
+          </h2>
+
+          <div class="cold-section-hero">
+            <div class="container-cold">
+              <h2>A taste of pure happiness:</h2>
+              <p>
+                A milkshake is a sweet beverage made by blending milk, ice
+                cream, and flavorings or sweeteners
+              </p>
+            </div>
+            <img src="mojitos/oreo-shake.jpg" alt="" />
+          </div>
+        </div>
+        <div
+          class="swiper milksh-fra-container"
+          id="milkshakes-section-container"
+        >
+          <div class="swiper-wrapper milksh-fra-containerDOM"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- ========== REVIEWS CONTANER ============== -->
+
+      <section class="section_reviews" id="reviews-section">
+        <div class="container">
+          <h2 class="section_description">Not sure yet?</h2>
+          <h3 class="section__header">
+            Thousands of customers have tested our recipes and these are some of
+            the reviews below!
+          </h3>
+        </div>
+        <div class="slider__container">
+          <div class="slides slide--1">
+            <div class="testimonial">
+              <h5 class="testimonial__header">Best Coffee Shop ever!</h5>
+
+              <div class="testimonial___container">
+                <blockquote class="testimonial__text">
+                  <div class="star-rating">
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                  </div>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium quas quisquam non? Quas voluptate nulla minima
+                  deleniti optio ullam nesciunt, numquam corporis et asperiores
+                  laboriosam sunt, praesentium suscipit blanditiis.
+                  Necessitatibus id alias reiciendis, perferendis facere
+                  pariatur dolore veniam autem esse non voluptatem saepe
+                  provident nihil molestiae.
+                </blockquote>
+                <address class="testimonial__author">
+                  <img
+                    src="images/cafe_bg.jpg"
+                    alt=""
+                    class="testimonial__photo"
+                  />
+                  <h6 class="testimonial__name">Aarav Lynn</h6>
+                  <p class="testimonial__location">San Francisco, USA</p>
+                </address>
+              </div>
+            </div>
+          </div>
+          <div class="slides slide--2">
+            <div class="testimonial">
+              <h5 class="testimonial__header">Best Coffee Shop ever!</h5>
+
+              <div class="testimonial___container">
+                <blockquote class="testimonial__text">
+                  <div class="star-rating">
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star-half"></ion-icon>
+                  </div>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium quas quisquam non? Quas voluptate nulla minima
+                  deleniti optio ullam nesciunt, numquam corporis et asperiores
+                  laboriosam sunt, praesentium suscipit blanditiis.
+                  Necessitatibus id alias reiciendis, perferendis facere
+                  pariatur dolore veniam autem esse non voluptatem saepe
+                  provident nihil molestiae.
+                </blockquote>
+                <address class="testimonial__author">
+                  <img
+                    src="images/customer_1.jpg"
+                    alt=""
+                    class="testimonial__photo"
+                  />
+                  <h6 class="testimonial__name">Aarav Lynn</h6>
+                  <p class="testimonial__location">San Francisco, USA</p>
+                </address>
+              </div>
+            </div>
+          </div>
+
+          <div class="slides slide--3">
+            <div class="testimonial">
+              <h5 class="testimonial__header">Best Coffee Shop ever!</h5>
+
+              <div class="testimonial___container">
+                <blockquote class="testimonial__text">
+                  <div class="star-rating">
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star-half"></ion-icon>
+                  </div>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium quas quisquam non? Quas voluptate nulla minima
+                  deleniti optio ullam nesciunt, numquam corporis et asperiores
+                  laboriosam sunt, praesentium suscipit blanditiis.
+                  Necessitatibus id alias reiciendis, perferendis facere
+                  pariatur dolore veniam autem esse non voluptatem saepe
+                  provident nihil molestiae.
+                </blockquote>
+                <address class="testimonial__author">
+                  <img
+                    src="images/customer_2.jpg"
+                    alt=""
+                    class="testimonial__photo"
+                  />
+                  <h6 class="testimonial__name">Aarav Lynn</h6>
+                  <p class="testimonial__location">San Francisco, USA</p>
+                </address>
+              </div>
+            </div>
+          </div>
+
+          <div class="slides slide--4">
+            <div class="testimonial">
+              <h5 class="testimonial__header">Best Coffee Shop ever!</h5>
+
+              <div class="testimonial___container">
+                <blockquote class="testimonial__text">
+                  <div class="star-rating">
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon class="icon rating" name="star"></ion-icon>
+                    <ion-icon
+                      class="icon rating"
+                      name="star-outline"
+                    ></ion-icon>
+                  </div>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium quas quisquam non? Quas voluptate nulla minima
+                  deleniti optio ullam nesciunt, numquam corporis et asperiores
+                  laboriosam sunt, praesentium suscipit blanditiis.
+                  Necessitatibus id alias reiciendis, perferendis facere
+                  pariatur dolore veniam autem esse non voluptatem saepe
+                  provident nihil molestiae.
+                </blockquote>
+                <address class="testimonial__author">
+                  <img
+                    src="images/customer_2.jpg"
+                    alt=""
+                    class="testimonial__photo"
+                  />
+                  <h6 class="testimonial__name">Aarav Lynn</h6>
+                  <p class="testimonial__location">San Francisco, USA</p>
+                </address>
+              </div>
+            </div>
+          </div>
+          <button class="slider__btn slider__btn--left">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </button>
+          <button class="slider__btn slider__btn--right">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+          <div class="dots"></div>
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#c7a17a"
+              fill-opacity="1"
+              d="M0,192L24,208C48,224,96,256,144,245.3C192,235,240,181,288,165.3C336,149,384,171,432,197.3C480,224,528,256,576,250.7C624,245,672,203,720,197.3C768,192,816,224,864,234.7C912,245,960,235,1008,208C1056,181,1104,139,1152,138.7C1200,139,1248,181,1296,197.3C1344,213,1392,203,1416,197.3L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================================================= -->
+    <!-- =============== FOOTER SECTION ================== -->
+    <!-- ================================================= -->
+
+    <footer class="footer" id="footer">
+      <div class="footer_svg">
+        <div class="footer_container grid grid_footer">
+          <div class="logo-col">
+            <a href="#" class="footer-logo">
+              <img src="images/cup__logo.jpg" class="logo" alt="omniFood logo"
+            /></a>
+
+            <ul class="social-links">
+              <li>
+                <a class="footer_links" href="#"
+                  ><ion-icon
+                    class="social-icons"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer_links" href="#"
+                  ><ion-icon
+                    class="social-icons"
+                    name="logo-facebook"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer_links" href="#"
+                  ><ion-icon class="social-icons" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer_links" href="#"
+                  ><ion-icon class="social-icons" name="logo-tiktok"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer_links" href="#"
+                  ><ion-icon
+                    class="social-icons"
+                    name="logo-snapchat"
+                  ></ion-icon
+                ></a>
+              </li>
+            </ul>
+
+            <p class="copyRight">
+              Copyright &copy; 2023 by Wurie Bah, Inc. All rights Reserved.
+            </p>
+          </div>
+          <div class="address-col">
+            <p class="footer-heading">Contact Us at: <span></span></p>
+
+            <address class="Contacts">
+              <p class="address">
+                Building No:2, Serekar Zabir, Al Marfa, Western Region, Abu
+                Dhabi, UAE
+              </p>
+              <p>
+                <a class="footer_links" href="tel:415-201-6370">
+                  Phone: 415-201-6370</a
+                >
+                <br />
+                <a class="footer_links" href="mailto:hello@omnifood.com">
+                  Email: hello@omnifood.com</a
+                >
+              </p>
+            </address>
+          </div>
+          <nav class="Nav-col">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li>
+                <a class="footer_links" href="#">About Smooth Brew Cafe</a>
+              </li>
+              <li><a class="footer_links" href="#">For Bussiness</a></li>
+              <li><a class="footer_links" href="#">Our Partners</a></li>
+              <li><a class="footer_links" href="#">Careers</a></li>
+            </ul>
+          </nav>
+          <nav class="Nav-col">
+            <p class="footer-heading">Resources <span></span></p>
+            <ul class="footer-nav">
+              <li><a class="footer_links" href="#">Recipe Directory</a></li>
+              <li><a class="footer_links" href="#">Help Centers</a></li>
+              <li><a class="footer_links" href="#">Privacy & terms</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer_svg_container">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#c7a17a"
+              fill-opacity="0.7"
+              d="M0,192L21.8,181.3C43.6,171,87,149,131,144C174.5,139,218,149,262,133.3C305.5,117,349,75,393,90.7C436.4,107,480,181,524,202.7C567.3,224,611,192,655,186.7C698.2,181,742,203,785,181.3C829.1,160,873,96,916,101.3C960,107,1004,181,1047,192C1090.9,203,1135,149,1178,138.7C1221.8,128,1265,160,1309,170.7C1352.7,181,1396,171,1418,165.3L1440,160L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </footer>
+    <!-- ===== ION ICONS PACKAGE ========== -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- ===== ION ICONS PACKAGE ========== -->
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- ===== SWIPPER JS PACKAGE ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- ===== NORMAL JS FOR THE PAGE LINK ========== -->
+    <script src="script.js"></script>
+  </body>
+</html>

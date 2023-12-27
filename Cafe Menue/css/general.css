@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.container {
+  max-width: 150rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-centre-V {
+  align-items: center;
+}
+
+.hero {
+  padding: 5rem;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  text-transform: uppercase;
+}
+
+.icon {
+  width: 5rem;
+  height: 5rem;
+  color: #c7a17a;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 1px;
+  background-color: #c7a17a;
+  border-radius: 1rem;
+  padding: 1.6rem 3.5rem;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.btn:hover,
+.btn:active {
+  color: #000;
+  background-color: #c2823d;
+
+  transform: scale(1.02);
+}
+
+/* 
+--primary-color: #151515;
+    --primary-hover-color: #c7a17a;
+    --secondary-color: #ffffff;
+    --secondary-light-color: #777777;
+    --background-color: #f9f5f0;
+    --border-color: #e2e2e2;
+ */
+
+@media screen and (max-width: 900px) {
+  .icon {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .heading-primary {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .heading-primary {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .btn-hero {
+    color: red;
+    background-color: red;
+    padding: 1.5rem 3rem;
+  }
+}

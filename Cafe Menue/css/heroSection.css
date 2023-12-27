@@ -1,0 +1,186 @@
+.section-hero {
+  padding: 9.6rem;
+}
+.slideshow {
+  height: 100vh;
+  margin-top: 7rem;
+}
+.hero {
+  background: url(/images/hero-backgroung2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+}
+.hero-container {
+  margin-top: 10rem;
+  width: 40%;
+  height: 100%;
+}
+.hero-heading span {
+  color: #c7a17a;
+  font-size: 6rem;
+}
+.hero-container p {
+  margin-bottom: 3.6rem;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.btn-hero {
+  box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.1);
+}
+
+.our-services {
+  margin-bottom: 3.5rem;
+  position: relative;
+  background-color: #ebebeb;
+}
+.secondary-header {
+  margin: 0 auto;
+  padding: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  max-width: 150rem;
+  font-weight: 500;
+}
+
+.container-helper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 150rem;
+  height: 10rem;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.services {
+  width: 25.5rem;
+  height: 75%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  z-index: 1;
+}
+.service-icon {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 0.5rem;
+}
+
+.service-header {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.75px;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+}
+
+.service-desc {
+  font-size: 1.1rem;
+  text-wrap: nowrap;
+}
+
+.service-desc span {
+  font-size: 1.5rem;
+  color: black;
+}
+
+@media screen and (max-width: 1400px) {
+  .hero-container {
+    width: 50%;
+    height: 75%;
+  }
+  .slde-btn {
+    display: block;
+  }
+
+  .hero-heading span {
+    font-size: 3.5rem;
+  }
+  .hero-container p {
+    margin-bottom: 3.6rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+  }
+}
+
+/* ========= SERVICES MEDIA QUERIES============ */
+
+@media screen and (max-width: 980px) {
+  .customer-service {
+    font-size: 1rem;
+    text-align: right;
+  }
+  .contact-us-number span {
+    font-size: 1rem;
+    background-color: #cac1b7;
+  }
+  .service-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-container {
+    margin-top: 8rem;
+
+    width: 60%;
+    height: 75%;
+  }
+
+  .hero-container p {
+    margin-bottom: 2.5rem;
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+}
+@media screen and (max-width: 674px) {
+  .slideshow {
+    height: 80vh;
+    margin-top: 7rem;
+  }
+  .hero-container {
+    margin-top: 3rem;
+
+    width: 100%;
+    height: 50%;
+  }
+
+  .btn-heross:link {
+    align-self: center;
+
+    padding: 1.2rem 3rem;
+  }
+}
+@media screen and (max-width: 451px) {
+  .btn-heross:link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero-container .hero-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+  .hero-container p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1ox;
+  }
+}

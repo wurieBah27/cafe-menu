@@ -1,0 +1,489 @@
+.spinner svg {
+  fill: #f38e82;
+  width: 6rem;
+  height: 6rem;
+  animation: 2s linear infinite rotate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ======================================== */
+/* ========= HOT COFFEE SECTION ========== */
+/* ======================================== */
+.products-section1 {
+  margin-bottom: 5rem;
+}
+
+.products-section1 .swiper {
+  padding-bottom: 50px;
+  padding-right: 3rem;
+  padding-left: 2rem;
+  max-width: 150rem;
+}
+
+.products-containerss .swiper-pagination {
+  bottom: -2px;
+}
+
+.products-section1 .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #383838;
+  margin: 0 10px !important;
+}
+
+/* ======================================== */
+/* ========= COLD COFFEE SECTION ========== */
+/* ======================================== */
+
+.cold-coffee-section {
+  /* height: 100vh; */
+  margin-bottom: 6rem;
+}
+.cold-coffee-section .swiper {
+  /* height: 60%; */
+  padding-bottom: 50px;
+  padding-right: 3rem;
+  padding-left: 2rem;
+  max-width: 150rem;
+}
+
+.mySwiperhello .swiper-pagination {
+  bottom: -2px;
+}
+
+.mySwiperhello .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #383838;
+  margin: 0 10px !important;
+}
+
+/* ============================================= */
+/* ============= CAKES & ACAI CSS ============== */
+/* ============================================= */
+
+.mojito-container {
+  margin-bottom: 5rem;
+}
+
+.mojito-container .swiper {
+  padding-bottom: 50px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width: 150rem;
+}
+
+.mojito-section-container .swiper-pagination {
+  bottom: -2px;
+}
+
+.mojito-section-container .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #383838;
+  margin: 0 10px !important;
+}
+
+/* ============================================= */
+/* ============= CAKES & ACAI CSS ============== */
+/* ============================================= */
+
+.cakes-container {
+  margin-bottom: 7rem;
+}
+
+.cakes-container .swiper {
+  padding-bottom: 50px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width: 150rem;
+}
+
+.cakes-section-container .swiper-pagination {
+  bottom: -2px;
+}
+
+.cakes-section-container .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #383838;
+  margin: 0 10px !important;
+}
+
+/* ============================================= */
+/* ===== FRAPPES/MILKSHAKES CONTANER============ */
+/* ============================================= */
+
+.milkshakes-frappes-container {
+  margin-bottom: 5rem;
+}
+
+.milkshakes-frappes-container .swiper {
+  padding-bottom: 50px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width: 150rem;
+}
+
+.milksh-fra-container .swiper-pagination {
+  bottom: -2px;
+}
+
+.milksh-fra-container .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #383838;
+  margin: 0 10px !important;
+}
+
+.heading {
+  margin: 0 auto;
+  max-width: 150rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cold-section-hero {
+  background-color: #ecdfb5;
+  height: 25rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0 0 3.2rem;
+  margin: 2rem 0;
+  color: #000000;
+}
+
+.cold-section-hero img {
+  width: 50%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.container-cold h2 {
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+  font-size: 3.2rem;
+  padding: 1rem 0;
+}
+.container-cold p {
+  width: 70%;
+  color: #333333;
+  line-height: 1.2;
+}
+
+.cakes-containerDOM {
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .cold-section-hero {
+    height: 15rem;
+  }
+  .container-cold h2 {
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-size: 2.2rem;
+  }
+  .container-cold p {
+    line-height: 1;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-cold h2 {
+    letter-spacing: 1px;
+    line-height: 1;
+    font-size: 1.5rem;
+  }
+}
+
+/* ============================================== */
+/* ========== ABOUT US SECTION =================== */
+/* ============================================== */
+
+.about_icon-container {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+.about_icon {
+  width: 4rem;
+  height: 4rem;
+}
+.aboutUs_section {
+  background-color: #ebebeb;
+  padding-top: 15rem;
+}
+
+.aboutUs_hero {
+  position: relative;
+  height: 50vh;
+  background-image: linear-gradient(to right, rgba(0, 0, 0), rgba(0, 0, 0, 0.1)),
+    url(/screenImages/about_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about_header {
+  text-align: center;
+}
+.about-btn:link,
+.about-btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 1px;
+  background-color: #c7a17a;
+  border-radius: 1rem;
+  padding: 1.6rem 3.5rem;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  position: absolute;
+  top: 50%;
+  /* transform: translate(25%, -50%); */
+}
+.about-btn:hover,
+.about-btn:active {
+  background-color: #d2b495;
+  transform: scale(1.02);
+}
+
+.log {
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.about-description-container {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+}
+
+.summary {
+  font-size: 2rem;
+  letter-spacing: 1.2px;
+}
+
+.summary-details {
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+}
+
+/* ============================================== */
+/* ========== CONTACT US SECTION =================== */
+/* ============================================== */
+.contact_us_container {
+  background-color: #ebebeb;
+}
+
+.contact-us-form {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding: 3rem;
+  position: relative;
+}
+
+.img-section img {
+  width: 100%;
+}
+.contacts_us_section {
+  margin: 0 auto;
+  max-width: 150rem;
+  padding-top: 15rem;
+}
+
+.contact-us-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  padding: 2rem 0;
+}
+
+.contacts_main-header {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 0 4rem 0;
+}
+
+.contactsUs_By {
+  margin-bottom: 2rem;
+}
+
+.iconts_container .icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.contact_us_primary-header {
+  color: #555;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem 0;
+}
+.contact-description {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  color: #000000;
+}
+
+.media-platforms {
+  font-size: 1.8rem;
+  padding: 0 0 1rem 0;
+}
+
+.form {
+  padding: 3rem;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.05);
+}
+
+.form-header {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 0 0 2rem 0;
+}
+.form fieldset {
+  padding: 2rem;
+
+  display: grid;
+  column-gap: 5rem;
+  row-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+fieldset legend {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+fieldset div {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset div label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem 0;
+  letter-spacing: 1.3px;
+}
+#textareadiv {
+  padding-top: 10rem;
+  grid-column: 1/3;
+}
+
+#textareadiv p {
+  padding: 1rem;
+  font-size: 2rem;
+  padding: 0 0 1rem 0;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+}
+
+#textareadiv textarea {
+  font-size: 1.8rem;
+  padding: 2rem;
+  background: transparent;
+  border: 1px solid #c7a17a;
+}
+#textareadiv textarea:active,
+#textareadiv textarea:hover {
+  background: white;
+  border: 3px solid #c7a17a;
+}
+
+#textareadiv textarea::placeholder {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+  letter-spacing: 1.2px;
+}
+fieldset div input {
+  outline: #333333;
+  padding: 1.5rem 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #000000;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid #c7a17a;
+}
+
+.submit_btn {
+  margin-top: 1rem;
+  background-color: #c7a17a;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.6rem 0.8rem;
+}
+
+.submit_btn .submit-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.submit_btn:hover {
+  background-color: #d2b495;
+}
+
+@media (max-width: 1000px) {
+  .contact-us-form {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .form fieldset {
+    grid-template-columns: 1fr;
+  }
+
+  #textareadiv {
+    padding-top: 10rem;
+    grid-column: 1;
+  }
+
+  .contact-us-description {
+    font-size: 1.2rem;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .products-section1 .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    margin: 0 5px !important;
+  }
+  .mySwiperhello .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    margin: 0 5px !important;
+  }
+  fieldset {
+    border: none;
+  }
+  .form {
+    padding: 3rem 0;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.05);
+  }
+}

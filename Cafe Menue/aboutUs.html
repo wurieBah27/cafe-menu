@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About SMOOTH BREW CAFE</title>
+
+    <!-- ====CAROUSEL CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ------SWIPER JS CSS LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- END OF LINK -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/heroSection.css" />
+
+    <link rel="stylesheet" href="css/products.css" />
+    <link rel="stylesheet" href="css/reviews.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="about_icon-container" href="/index.html">
+        <ion-icon class="about_icon" name="arrow-back-outline"></ion-icon>
+      </a>
+
+      <div class="secondary_header container">
+        <div class="logo">
+          <img src="/images/cup__logo.jpg" alt="cafe logo" />
+          <p class="logo-name">smooth <span>B</span>rew</p>
+        </div>
+
+        <div class="cart-icon">
+          <ion-icon class="icon add-cart" name="cart-outline"></ion-icon>
+          <span class="cart-quantity">0</span>
+        </div>
+        <div class="cart-items">
+          <div class="basket-subTotal2"></div>
+          <div class="cart-footer grid grid--2-cols">
+            <div class="basket-subTotal">
+              <label for="sub-Amoubt">SUB TOTAL</label>
+              <div class="sub-Amoubt" id="sub-Amoubt">AED 100</div>
+            </div>
+            <div class="clear-allItems-btn">CLEAR CART</div>
+          </div>
+        </div>
+
+        <nav class="nav-Bar">
+          <ul class="main-nav">
+            <li class="main-nav-list active"><a href="/index.html">Home</a></li>
+
+            <li class="main-nav-list our-menue">
+              <a href="/index.html">Menue </a>
+              <ul class="Menue-items">
+                <li class="Menue_category">
+                  <a href="#our-cafe-menu">Hot Coffee</a>
+                </li>
+                <li class="Menue_category"><a href="#">cold coffee</a></li>
+                <li class="Menue_category">
+                  <a href="#mojito-section-container">mojitos</a>
+                </li>
+                <li class="Menue_category"><a href="#">Frappes</a></li>
+                <li class="Menue_category"><a href="#">Milk shakes</a></li>
+                <li class="Menue_category"><a href="#">Manual brew</a></li>
+                <li class="Menue_category"><a href="#">Acai</a></li>
+              </ul>
+            </li>
+            <li class="main-nav-list">
+              <a href="#reviews-section">Reviews</a>
+            </li>
+            <li class="main-nav-list"><a href="#">Location</a></li>
+            <li class="main-nav-list">
+              <a href="/contactUs.html">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hamburger-menu hamburger-menu-two">
+          <input type="checkbox" class="input-check" id="input-check2" hidden />
+          <label class="bars-container bars-container2" for="input-check2">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+          </label>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="aboutUs_section">
+        <h2 class="heading-primary hero-heading about_header">
+          ABOUT <span>US</span>
+        </h2>
+        <div class="aboutUs_hero container">
+          <a href="#" class="about-btn">EXPLORE NOW</a>
+        </div>
+        <div class="aboutus container">
+          <div class="aboutUs_container">
+            <h2 class="log">About SMOOTH BREW CAFE</h2>
+            <p class="about-description-container">
+              SMOOTH BREW CAFE was founded by two brothers, Mr Wurie and Mr
+              Abdullah Bah. They built this shop for the
+              <strong>love of COFFEE</strong>.We hope our shop adds a unique and
+              interesting value to the <em>UNITED ARAB EMIRATES</em>. Lorem,
+              ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+              eius fugit earum aliquid, corporis vel tempora fuga, perspiciatis
+              voluptas adipisci eaque quos molestiae voluptate sit accusamus
+              sequi necessitatibus delectus asperiores.
+            </p>
+
+            <h3 class="heading-primary hero-heading about_header">
+              SMOOTH BREW CAFE
+            </h3>
+            <aside class="aside-section">
+              <details>
+                <summary class="summary">
+                  when was<strong> SMOOTH BREW <span>CAFE</span></strong> opened
+                  in MARFA?
+                </summary>
+                <p class="summary-details">
+                  It was openen on the 20<sup>th</sup> April 2021
+                </p>
+              </details>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <section class="our-services">
+        <h2 class="secondary-header">Services</h2>
+
+        <div class="container container-helper swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="services swiper-slide">
+              <ion-icon class="icon service-icon" name="car-outline"></ion-icon>
+              <div class="service-contain">
+                <h2 class="service-header">Free delivery</h2>
+                <p class="service-desc">on oders above AED <span>350</span></p>
+              </div>
+            </div>
+            <div class="services swiper-slide">
+              <ion-icon
+                class="icon service-icon"
+                name="wallet-outline"
+              ></ion-icon>
+              <div class="service-contain">
+                <h2 class="service-header">Cash on delivery</h2>
+                <p class="service-desc">100% money back guarantee</p>
+              </div>
+            </div>
+            <div class="services swiper-slide">
+              <ion-icon
+                class="icon service-icon"
+                name="gift-outline"
+              ></ion-icon>
+              <div class="service-contain">
+                <h2 class="service-header">special discount</h2>
+                <p class="service-desc">on oders above AED <span>250</span></p>
+              </div>
+            </div>
+
+            <div class="services swiper-slide">
+              <ion-icon
+                class="icon service-icon call-out"
+                name="call-outline"
+              ></ion-icon>
+              <div class="service-contain">
+                <h2 class="service-header customer-service">
+                  24/7customer service
+                </h2>
+                <p class="service-desc contact-us-number">
+                  call us at
+                  <span> 005-1234-8547 </span>
+                </p>
+              </div>
+            </div>
+            <div class="services swiper-slide">
+              <ion-icon
+                class="icon service-icon"
+                name="wifi-outline"
+              ></ion-icon>
+              <div class="service-contain">
+                <h2 class="service-header">Free WI-FI</h2>
+                <p class="service-desc">convenient for studies</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </main>
+    <!-- ================================================= -->
+    <!-- =============== FOOTER SECTION ================== -->
+    <!-- ================================================= -->
+
+    <footer class="footer" id="footer">
+      <div class="footer_svg">
+        <div class="footer_container grid grid_footer">
+          <div class="logo-col">
+            <a href="#" class="footer-logo">
+              <img src="images/cup__logo.jpg" class="logo" alt="omniFood logo"
+            /></a>
+
+            <ul class="social-links">
+              <li>
+                <a class="footer_links" href="#"
+                  ><ion-icon
+                    class="social-icons"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer_links" href="#"
+                  ><ion-icon
+                    class="social-icons"
+                    name="logo-facebook"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer_links" href="#"
+                  ><ion-icon class="social-icons" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer_links" href="#"
+                  ><ion-icon class="social-icons" name="logo-tiktok"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer_links" href="#"
+                  ><ion-icon
+                    class="social-icons"
+                    name="logo-snapchat"
+                  ></ion-icon
+                ></a>
+              </li>
+            </ul>
+
+            <p class="copyRight">
+              Copyright &copy; 2023 by Wurie Bah, Inc. All rights Reserved.
+            </p>
+          </div>
+          <div class="address-col">
+            <p class="footer-heading">Contact Us at: <span></span></p>
+
+            <address class="Contacts">
+              <p class="address">
+                Building No:2, Serekar Zabir, Al Marfa, Western Region, Abu
+                Dhabi, UAE
+              </p>
+              <p>
+                <a class="footer_links" href="tel:415-201-6370">
+                  Phone: 415-201-6370</a
+                >
+                <br />
+                <a class="footer_links" href="mailto:hello@omnifood.com">
+                  Email: hello@omnifood.com</a
+                >
+              </p>
+            </address>
+          </div>
+          <nav class="Nav-col">
+            <p class="footer-heading">Company <span></span></p>
+            <ul class="footer-nav">
+              <li><a class="footer_links" href="#">About Omnifood</a></li>
+              <li><a class="footer_links" href="#">For Bussiness</a></li>
+              <li><a class="footer_links" href="#">Cooking Partners</a></li>
+              <li><a class="footer_links" href="#">Careers</a></li>
+            </ul>
+          </nav>
+          <nav class="Nav-col">
+            <p class="footer-heading">Resources <span></span></p>
+            <ul class="footer-nav">
+              <li><a class="footer_links" href="#">Recipe Directory</a></li>
+              <li><a class="footer_links" href="#">Help Centers</a></li>
+              <li><a class="footer_links" href="#">Privacy & terms</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer_svg_container">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#c7a17a"
+              fill-opacity="0.7"
+              d="M0,192L21.8,181.3C43.6,171,87,149,131,144C174.5,139,218,149,262,133.3C305.5,117,349,75,393,90.7C436.4,107,480,181,524,202.7C567.3,224,611,192,655,186.7C698.2,181,742,203,785,181.3C829.1,160,873,96,916,101.3C960,107,1004,181,1047,192C1090.9,203,1135,149,1178,138.7C1221.8,128,1265,160,1309,170.7C1352.7,181,1396,171,1418,165.3L1440,160L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </footer>
+    <!-- ===== ION ICONS PACKAGE ========== -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- ===== ION ICONS PACKAGE ========== -->
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- ===== SWIPPER JS PACKAGE ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- ===== NORMAL JS FOR THE PAGE LINK ========== -->
+    <script src="script.js"></script>
+  </body>
+</html>
